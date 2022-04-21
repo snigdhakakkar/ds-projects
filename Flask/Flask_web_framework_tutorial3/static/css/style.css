@@ -1,0 +1,31 @@
+ /* Style inputs with type="text"*/
+ input[type=text], select{
+    width: 100%; /* Full width */
+    padding: 12px 20px; /* Some padding */  
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+}
+
+/*Style the submit button with a specific background color etc*/
+input[type=submit] {
+    width: 100%; /* Full width */
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px; /* Some padding */ 
+    margin: 8px 0;
+    border-radius: 4px; /* Rounded borders */
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+div{
+    border-radius: 5px; 
+    background-color: #f2f2f2;
+    padding: 20px;
+}
